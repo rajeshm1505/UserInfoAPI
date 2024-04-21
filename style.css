@@ -1,0 +1,52 @@
+h1{
+    color:cadetblue;
+}
+
+.main-container{
+    text-align:  center;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    
+}
+  
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    width: 350px;
+    background-color :lavender;
+}
+
+.user-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color : lightseagreen;
+}
+  
+.user-card p {
+    margin-bottom: 5px;
+    position: relative;
+    left: 50px;
+}
+
+.user-card p strong {
+    font-weight: bold;
+}
+
+@media only screen and (min-width <= 500px) {
+    body {
+        font-size: 14px;
+    }
+    
+}
+  
+
+
